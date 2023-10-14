@@ -1,0 +1,22 @@
+{
+  "name": "tuxin-notebook",
+  "version": "1.0.0",
+  "description": "前端学习笔记",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "dep": "sh deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.33",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
