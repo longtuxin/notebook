@@ -2,7 +2,7 @@
  * @Author: longTuxin
  * @Date: 2023-10-11 21:57:48
  * @LastEditors: longtuxin
- * @LastEditTime: 2023-10-14 18:46:23
+ * @LastEditTime: 2023-10-15 12:00:51
  * @FilePath: /notebook/docs/.vitepress/config.ts
  * @Description: 头部注释
  */
@@ -17,7 +17,7 @@ const otherSidebar = generateSidebar('other')
 
 export default defineConfig({
   base: '/notes/',
-  title: 'Tuxin 前端笔记',
+  title: '前端笔记',
   description: '前端学习笔记',
   // appearance: false,
   lastUpdated: true,
@@ -33,6 +33,7 @@ export default defineConfig({
     lineNumbers: true,
   },
   themeConfig: {
+    logo: '/logo.png',
     outline: [1, 3],
     sidebar: {
       '/base': baseSidebar,
@@ -49,14 +50,14 @@ export default defineConfig({
       generateNav('其他', otherSidebar),
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/longTuxin/notebook.git' },
+      { icon: 'github', link: 'https://github.com/longtuxin/notebook.git' },
     ],
     footer: {
       copyright: 'Copyright © 2023-present longtuxin',
     },
     // 文章尾部显示编辑文章链接
     // editLink: {
-    //   pattern: 'https://github.com/longTuxin/notebook.git',
+    //   pattern: 'https://github.com/longtuxin/notebook.git',
     //   text: 'Edit this page on Gitlab',
     // },
     lastUpdatedText: 'Last Updated',

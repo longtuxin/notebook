@@ -4,7 +4,7 @@ hero:
   name: Tuxin
   text: 前端笔记
   image:
-    src: /logo.jpeg
+    src: /main.png
     alt: 前端笔记
   actions:
     - theme: brand
@@ -12,7 +12,7 @@ hero:
       link: ./welcome
     - theme: alt
       text: View on GitHub
-      link: https://github.com/longTuxin/notebook.git
+      link: https://github.com/longtuxin/notebook.git
 features:
   - title: 🦾 待定
     details: 这是描述...
